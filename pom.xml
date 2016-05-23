@@ -39,4 +39,18 @@
 	</build>
 
 
+	<!-- reuqired for JPOS dependencies -->
+	<repositories>
+		<repository>
+			<id>oracle.maven</id>
+			<url>http://download.oracle.com/maven</url>
+		</repository>
+		
+		<repository>
+			<id>jline</id>
+			<url>http://jline.sourceforge.net/m2repo</url>
+		</repository>
+		
+	</repositories>
+
 </project>
