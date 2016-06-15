@@ -1,0 +1,12 @@
+download zip file as below and unzip
+https://github.com/jpos/jPOS/archive/v1_9_8.zip
+
+cd \MCOD\code\jPOS-1_9_8
+gradle installApp
+
+cd \MCOD\code\jPOS-1_9_8\jpos\build\install\jpos
+
+bin\q2  --starts the server
+
+the deploy dir mentioned in docs is as follows
+\MCOD\code\jPOS-1_9_8\jpos\src\dist\deploy
